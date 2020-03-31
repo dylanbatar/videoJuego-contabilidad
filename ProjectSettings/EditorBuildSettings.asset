@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Persitent.unity
+    guid: 3b11584fe79ec4dd8afd0cfd4b52a517
+  - enabled: 1
+    path: Assets/Scenes/StartQuiz.unity
+    guid: e6d7ca49f0ebc404eb7ebd9eb061821b
+  m_configObjects: {}
