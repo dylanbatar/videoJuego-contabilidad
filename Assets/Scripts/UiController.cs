@@ -8,7 +8,7 @@ public class UiController : MonoBehaviour
     public Text titleQuestion;
     public Text endScore;
     public Text semesterName;
-    public Text semesterNumber;
+    public Text QuestionNumber;
     public Transform answerButtonPanel;
     public GameObject prefabButton;
     private int answerNumber;
@@ -24,15 +24,14 @@ public class UiController : MonoBehaviour
             GameObject answerButtonGameObject = Instantiate(prefabButton);
             answerButtonGameObject.transform.SetParent(answerButtonPanel);
 
-            AnswerButton answerButton = answerButtonGameObject.GetComponent<AnswerButton>();
+            AnswerButton answerButton = answerButtonGameObject
+                .GetComponent<AnswerButton>();
             answerButton.Setup(data[i]);
         }
-
     }
 
     public void DeleteButtons()
     {
-        Debug.Log(answerButtonPanel.childCount);
         for (int i = 0; i < answerNumber; i++)
         {
             Destroy(answerButtonPanel.GetChild(i).gameObject);

@@ -68,6 +68,7 @@ public class GameController : MonoBehaviour
         }
     }
 
+    // TODO hacer que al final de las preguntas no borre los botones
     public void NextQuestion()
     {
         if ((indexQuiz+1)<= data.questions.Length)
@@ -86,13 +87,14 @@ public class GameController : MonoBehaviour
     {
         uiController.titleQuestion.text = questionName;
         uiController.endScore.text = points.ToString();
-
+        uiController.semesterName.text = $"Semestre: {data.name}";
+        uiController.QuestionNumber.text = $"{indexQuiz+1}/{data.questions.Length}";
     }
 
     // TODO Hacer terminacion del modo quiz
     public void EndLevel()
     {
-
+        
     }
 
 
