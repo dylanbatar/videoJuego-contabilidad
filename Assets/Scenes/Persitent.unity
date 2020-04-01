@@ -144,16 +144,19 @@ MonoBehaviour:
   allround:
   - name: Primer semestre
     timeLimit: 0
-    pointCorrectAnswer: 0
+    pointCorrectAnswer: 10
     questions:
     - _id: 1
-      questionText: Los activos son tal tal tal ?
+      questionText: Pregunta 1
       answer:
       - answer: False
         isCorrect: 0
         whyAnswer: 
       - answer: True
         isCorrect: 1
+        whyAnswer: 
+      - answer: wtf
+        isCorrect: 0
         whyAnswer: 
     - _id: 2
       questionText: Los pasivos son tal tal tal ?

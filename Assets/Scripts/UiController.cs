@@ -5,31 +5,21 @@ using System.Collections.Generic;
 
 public class UiController : MonoBehaviour
 {
-
     public Text titleQuestion;
     public Text endScore;
+    public Text semesterName;
+    public Text semesterNumber;
     public Transform answerButtonPanel;
     public GameObject prefabButton;
+    private int answerNumber;
 
     // OPTIONAL en caso de que se decida que los parciales tengan tiempo activar
     //public Text timeQuiz;
 
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void CreateButtonsAndInputs(Answer[] data)
     {
-
-        for (int i = 0; i < data.Length; i++)
+        answerNumber = data.Length;
+        for (int i = 0; i < answerNumber; i++)
         {
             GameObject answerButtonGameObject = Instantiate(prefabButton);
             answerButtonGameObject.transform.SetParent(answerButtonPanel);
@@ -40,10 +30,13 @@ public class UiController : MonoBehaviour
 
     }
 
-
     public void DeleteButtons()
     {
-
+        Debug.Log(answerButtonPanel.childCount);
+        for (int i = 0; i < answerNumber; i++)
+        {
+            Destroy(answerButtonPanel.GetChild(i).gameObject);
+        }
     }
 }
 

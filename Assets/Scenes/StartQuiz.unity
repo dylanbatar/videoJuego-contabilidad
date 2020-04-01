@@ -253,6 +253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textButton: {fileID: 0}
+  whyAnswer: {fileID: 0}
 --- !u!4 &600793036
 Transform:
   m_ObjectHideFlags: 0
@@ -378,7 +379,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.0825195, y: -234.20001}
+  m_AnchoredPosition: {x: -2.0825195, y: -279}
   m_SizeDelta: {x: -435.83502, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &821110497
@@ -452,6 +453,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleQuestion: {fileID: 821110497}
   endScore: {fileID: 623588208}
+  semesterName: {fileID: 0}
+  semesterNumber: {fileID: 0}
   answerButtonPanel: {fileID: 1103726937}
   prefabButton: {fileID: 7781239132415397254, guid: 56848e9697386423d9cf1822ceb4ab6c,
     type: 3}

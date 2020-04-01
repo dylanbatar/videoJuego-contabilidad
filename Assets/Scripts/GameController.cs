@@ -19,14 +19,16 @@ public class GameController : MonoBehaviour
     {
         dataController = FindObjectOfType<DataController>();
         uiController = FindObjectOfType<UiController>();
+
         indexQuiz = 0;
         endScore = 0;
-        data =  dataController.GetRoundData(0);
+        semesterLevel = 0; // Cambiar por el numero de semestre del usuario
+
+        data =  dataController.GetRoundData(semesterLevel);
 
         DisorderQuestion(data.questions);
 
         uiController.CreateButtonsAndInputs(data.questions[indexQuiz].answer);
-
 
         // TODO pasar esta logica a componentes visuales
         Debug.Log("Nombre del semestre que se esta jugando");
@@ -71,17 +73,27 @@ public class GameController : MonoBehaviour
         if ((indexQuiz+1)<= data.questions.Length)
         {
             indexQuiz++;
+            uiController.DeleteButtons();
+            uiController.CreateButtonsAndInputs(data.questions[indexQuiz].answer);
+            return;
         }
 
         Debug.Log("Fin de parcial");
     }
 
 
-   void SetupUi(string questionName, int points)
-   {
+    void SetupUi(string questionName, int points)
+    {
         uiController.titleQuestion.text = questionName;
         uiController.endScore.text = points.ToString();
-   }
+
+    }
+
+    // TODO Hacer terminacion del modo quiz
+    public void EndLevel()
+    {
+
+    }
 
 
     static void DisorderQuestion(Question[] arr)
