@@ -16,7 +16,7 @@ public class UiController : MonoBehaviour
     // OPTIONAL en caso de que se decida que los parciales tengan tiempo activar
     //public Text timeQuiz;
 
-    public void CreateButtonsAndInputs(Answer[] data)
+    public void CreateButtonsAndInputs(Answer[] data,string idButton)
     {
         answerNumber = data.Length;
         for (int i = 0; i < answerNumber; i++)
@@ -26,7 +26,7 @@ public class UiController : MonoBehaviour
 
             AnswerButton answerButton = answerButtonGameObject
                 .GetComponent<AnswerButton>();
-            answerButton.Setup(data[i]);
+            answerButton.Setup(data[i],idButton);
         }
     }
 

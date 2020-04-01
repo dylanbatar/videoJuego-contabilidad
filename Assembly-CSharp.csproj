@@ -68,8 +68,10 @@
     <Compile Include="Assets\Class\Round.cs" />
     <Compile Include="Assets\Scripts\AnswerButton.cs" />
     <Compile Include="Assets\Scripts\DataController.cs" />
+    <Compile Include="Assets\Scripts\DataResult.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\QuizSystem.cs" />
+    <Compile Include="Assets\Scripts\StorageResult.cs" />
     <Compile Include="Assets\Scripts\UiController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/dylanbatar/Documents/unity/Quiz-system/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

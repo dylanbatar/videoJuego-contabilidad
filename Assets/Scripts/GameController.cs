@@ -10,9 +10,10 @@ public class GameController : MonoBehaviour
     private DataController dataController;
     private static UiController uiController;
 
-    Round data;
-    int endScore;
-    
+    private Round data;
+    private int endScore;
+
+    private DataResult dataResult;
 
     // Use this for initialization
     void Start()
@@ -25,26 +26,12 @@ public class GameController : MonoBehaviour
         semesterLevel = 0; // Cambiar por el numero de semestre del usuario
 
         data =  dataController.GetRoundData(semesterLevel);
+        dataResult = new DataResult();
 
         DisorderQuestion(data.questions);
 
-        uiController.CreateButtonsAndInputs(data.questions[indexQuiz].answer);
-
-        // TODO pasar esta logica a componentes visuales
-        Debug.Log("Nombre del semestre que se esta jugando");
-        Debug.Log(data.name);
-
-        Debug.Log("Numero de preguntas en el parcial");
-        Debug.Log(data.questions.Length);
-
-        Debug.Log("Respuesta correcta de la pregunta #1");
-        for (int i = 0; i < data.questions[0].answer.Length; i++)
-        {
-            if (data.questions[0].answer[i].isCorrect)
-            {
-                Debug.Log(data.questions[0].answer[i].answer);
-            }
-        }
+        uiController.CreateButtonsAndInputs(data.questions[indexQuiz].answer,
+            data.questions[indexQuiz]._id);
     }
 
     // Update is called once per frame
@@ -61,25 +48,22 @@ public class GameController : MonoBehaviour
             endScore += data.pointCorrectAnswer;
             uiController.endScore.text = endScore.ToString();
             NextQuestion();
-        }
-        else
-        {
+        } else {
             NextQuestion();
         }
     }
 
-    // TODO hacer que al final de las preguntas no borre los botones
     public void NextQuestion()
     {
-        if ((indexQuiz+1)<= data.questions.Length)
+        if ((indexQuiz+1)< data.questions.Length)
         {
             indexQuiz++;
             uiController.DeleteButtons();
-            uiController.CreateButtonsAndInputs(data.questions[indexQuiz].answer);
+            uiController.CreateButtonsAndInputs(data.questions[indexQuiz].answer
+                ,data.questions[indexQuiz]._id);
             return;
         }
-
-        Debug.Log("Fin de parcial");
+        EndLevel();
     }
 
 
@@ -94,7 +78,15 @@ public class GameController : MonoBehaviour
     // TODO Hacer terminacion del modo quiz
     public void EndLevel()
     {
-        
+        Debug.Log("Fin de parcial");
+        GetDataRound();
+    }
+
+
+    public void GetDataRound()
+    {
+        Debug.Log("impresion de la data respondida");
+        dataResult.GetData();
     }
 
 

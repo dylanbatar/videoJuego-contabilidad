@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{A38602C8-B241-6561-AB20-31D32533F013}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UiController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DataResult.cs">
     <Files>
-      <File FileName="Assets/Scripts/DataController.cs" Line="10" Column="8" />
-      <File FileName="Assets/Scripts/QuizSystem.cs" Line="13" Column="1" />
-      <File FileName="Assets/Scripts/GameController.cs" Line="87" Column="32" />
-      <File FileName="Assets/Scripts/AnswerButton.cs" Line="17" Column="1" />
-      <File FileName="Assets/Scripts/UiController.cs" Line="32" Column="1" />
+      <File FileName="Assets/Class/StorageResult.cs" Line="25" Column="1" />
+      <File FileName="Assets/Scripts/AnswerButton.cs" Line="7" Column="31" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/UiController.cs" Line="41" Column="1" />
+      <File FileName="Assets/Scripts/NewMonoBehaviour.cs" Line="15" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +14,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Class" expanded="True" />
               <Node name="Scripts" expanded="True">
-                <Node name="UiController.cs" selected="True" />
+                <Node name="DataResult.cs" selected="True" />
               </Node>
             </Node>
           </Node>

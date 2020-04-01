@@ -4,33 +4,36 @@ using UnityEngine.UI;
 
 public class AnswerButton : MonoBehaviour
 {
+    private string questionId;
     public Text textButton;
     public InputField whyAnswer;
     private Answer answerData;
     private GameController gameController;
+    private DataResult dataResult;
 
     // Use this for initialization
     void Start()
     {
-        gameController = FindObjectOfType<GameController>();   
+        gameController = FindObjectOfType<GameController>();
+        dataResult = FindObjectOfType<DataResult>();
     }
 
-    public void Setup(Answer data)
+    public void Setup(Answer data,string _questionId)
     {
         answerData = data;
         textButton.text = answerData.answer;
+        questionId = _questionId;
     }
 
-    // TODO guardar estos datos
     public void ClickButton()
     {
-        Debug.Log("Click");
+        dataResult.SaveData(questionId, answerData.answer,$"Porque: {whyAnswer.text}");
+        dataResult.GetData();
         gameController.CorrerAnswer(answerData.isCorrect);
     }
 
-    // TODO guardar estos datos
     public void HandleInputWhy()
     {
-        Debug.Log($"{whyAnswer.text}"); 
+        if (!whyAnswer) whyAnswer.text = "sin justificacion";
     }
 }
