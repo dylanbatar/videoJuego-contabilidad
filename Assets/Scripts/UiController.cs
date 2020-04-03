@@ -10,8 +10,10 @@ public class UiController : MonoBehaviour
     public Text semesterName;
     public Text QuestionNumber;
     public Transform answerButtonPanel;
+    public GameObject quizGamePanel;
+    public GameObject resultPanel;
     public GameObject prefabButton;
-    private int answerNumber;
+    private int answerNumber;  // para manipular cuantos botones se crean
 
     // OPTIONAL en caso de que se decida que los parciales tengan tiempo activar
     //public Text timeQuiz;
@@ -36,6 +38,29 @@ public class UiController : MonoBehaviour
         {
             Destroy(answerButtonPanel.GetChild(i).gameObject);
         }
+    }
+
+    /*
+     * Se encarga de pasarle los datos a los elementos visuales del juego 
+    */
+    public void SetUiQuiz(string _questionName,int _points ,
+        string _semesterName, int _start, int _end)
+    {
+        titleQuestion.text = _questionName;
+        endScore.text = $"{_points}";
+        semesterName.text = $"Jugando: {_semesterName}";
+        QuestionNumber.text = $"{_start}/{_end}";
+    }
+
+    /*
+    * Manipular que panel se muestra en el juego
+    * si el {isActive} es false se va a mostrar el panel de resultados
+    * si es true se va a motrar el juego
+    */
+    public void HandleGamePanel(bool isActive)
+    {
+        quizGamePanel.SetActive(isActive);
+        resultPanel.SetActive(!isActive);
     }
 }
 

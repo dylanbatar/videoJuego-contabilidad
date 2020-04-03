@@ -2,19 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StorageResult : MonoBehaviour
+public class StorageResult 
 {
     public List<string> id = new List<string>();
     public List<string> answerUser = new List<string>();
     public List<string> whyAnswers = new List<string>();
+    private List<string> results = new List<string>();
 
-    public void GetAllResponse()
+    public List<string> GetAllResponse()
     {
-        Debug.Log(answerUser.Count);
-        for (int i = 0; i < id.Count; i++)
-        {
-            Debug.Log($"pregunta {id[i]}: respuesta {answerUser[i]} ");
-        }
+        return results;
     }
 
     public void SaveAnswerUser(string questionId, string _answerUser , string _whyAnswers)
@@ -22,6 +19,7 @@ public class StorageResult : MonoBehaviour
         id.Add(questionId);
         answerUser.Add(_answerUser);
         whyAnswers.Add(_whyAnswers);
+        results.Add($"{questionId}||{_answerUser}||{_whyAnswers}");
     }
 }
 

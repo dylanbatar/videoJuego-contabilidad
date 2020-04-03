@@ -20,3 +20,4 @@ public class DataResult : MonoBehaviour
         storage.GetAllResponse();
     }
 }
+

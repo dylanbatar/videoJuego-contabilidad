@@ -6,27 +6,25 @@ public class GameController : MonoBehaviour
 
     public int indexQuiz;
     public int semesterLevel;
-
-    private DataController dataController;
-    private static UiController uiController;
-
-    private Round data;
     private int endScore;
 
+    private DataController dataController;
+    private UiController uiController;
     private DataResult dataResult;
+    private Round data;
 
     // Use this for initialization
     void Start()
     {
         dataController = FindObjectOfType<DataController>();
         uiController = FindObjectOfType<UiController>();
+        dataResult = FindObjectOfType<DataResult>();
 
         indexQuiz = 0;
         endScore = 0;
         semesterLevel = 0; // Cambiar por el numero de semestre del usuario
 
-        data =  dataController.GetRoundData(semesterLevel);
-        dataResult = new DataResult();
+        data = dataController.GetRoundData(semesterLevel);
 
         DisorderQuestion(data.questions);
 
@@ -66,29 +64,25 @@ public class GameController : MonoBehaviour
         EndLevel();
     }
 
-
     void SetupUi(string questionName, int points)
     {
-        uiController.titleQuestion.text = questionName;
-        uiController.endScore.text = points.ToString();
-        uiController.semesterName.text = $"Semestre: {data.name}";
-        uiController.QuestionNumber.text = $"{indexQuiz+1}/{data.questions.Length}";
+        uiController.SetUiQuiz(questionName, points, data.name, (indexQuiz + 1)
+            , data.questions.Length);
     }
 
     // TODO Hacer terminacion del modo quiz
     public void EndLevel()
     {
         Debug.Log("Fin de parcial");
+        uiController.HandleGamePanel(false);
         GetDataRound();
     }
-
 
     public void GetDataRound()
     {
         Debug.Log("impresion de la data respondida");
         dataResult.GetData();
     }
-
 
     static void DisorderQuestion(Question[] arr)
     {

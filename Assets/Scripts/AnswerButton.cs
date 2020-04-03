@@ -28,7 +28,6 @@ public class AnswerButton : MonoBehaviour
     public void ClickButton()
     {
         dataResult.SaveData(questionId, answerData.answer,$"Porque: {whyAnswer.text}");
-        dataResult.GetData();
         gameController.CorrerAnswer(answerData.isCorrect);
     }
 
