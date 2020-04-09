@@ -6,9 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Persitent.unity
+    path: Assets/Scenes/MainMenu/Main.unity
+    guid: 68bcfe4400c23455e969c33517c8f67f
+  - enabled: 1
+    path: Assets/Scenes/MainMenu/SelectLevel.unity
+    guid: 66fbc14770be6438bb0d8b42c5aab890
+  - enabled: 1
+    path: Assets/Scenes/Quiz/MenuQuiz.unity
+    guid: dd48c84adb0244aeda5c254ce453def3
+  - enabled: 1
+    path: Assets/Scenes/Quiz/Persitent.unity
     guid: 3b11584fe79ec4dd8afd0cfd4b52a517
   - enabled: 1
-    path: Assets/Scenes/StartQuiz.unity
+    path: Assets/Scenes/Quiz/StartQuiz.unity
     guid: e6d7ca49f0ebc404eb7ebd9eb061821b
+  - enabled: 1
+    path: Assets/Scenes/Class/Semester0_0.unity
+    guid: cb4f7e8b6d126495490c81c34f77c6de
+  - enabled: 1
+    path: Assets/Scenes/Class/Semester0_1.unity
+    guid: 00626a5385cf04678af6cdffc9dafbc7
+  - enabled: 1
+    path: Assets/Scenes/Class/Semester0_2.unity
+    guid: fbfcb79dec88f41949118b974d91d28b
+  - enabled: 1
+    path: Assets/Scenes/Class/Semester0_3.unity
+    guid: a392063af8e184349a840de70bd60c5f
   m_configObjects: {}
