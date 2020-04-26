@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265f033fd87f59a4ca4250609564f99c, type: 3}
+  m_Name: Como se puede definir la necesidad contable
+  m_EditorClassIdentifier: 
+  speakerLeft: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+  speakerRight: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+  nextConversation: {fileID: 0}
+  question:
+    _id: 
+    questionText: 
+    answer: []
+  lines:
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: Buenos dias jovenes
+  - character: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+    text: Buenos dias profesor, hoy que tema comenzaremos a dar?
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: hoy nosotros vendriamos a definir la necesidad contable, alguien sabe que
+      es?
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: nadie bueno, La necesidad contable es un control interno cuya finalidad
+      es registrar
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: de manera continua y ordenada cada uno de los movimientos financieros de
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: "la empresa, permitiendo as\xED mantener el control sobre la empresa que
+      se pueda"
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: evidenciar en sus estados financieros. alguna duda sobre el tema?
+  - character: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+    text: 'osea profesor la necesidad contable es de mayor importancia por que nos
+      proporciona '
+  - character: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+    text: la realidad economica y financiera de una empresa  atravez de registros
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: exacto asi es, nadie mas bueno es todo por hoy jovenes
+  - character: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+    text: hasta luego profesor!

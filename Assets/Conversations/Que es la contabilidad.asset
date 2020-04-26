@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265f033fd87f59a4ca4250609564f99c, type: 3}
+  m_Name: Que es la contabilidad
+  m_EditorClassIdentifier: 
+  speakerLeft: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+  speakerRight: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+  nextConversation: {fileID: 0}
+  question:
+    _id: 
+    questionText: 
+    answer: []
+  lines:
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: Bienvenidos estudiantes a la clase de contabilidad
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: Hoy comenzaremos con los conceptos basicos de la contabilidad
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: alguien sabe que trata la contabilidad o que es la contabilidad
+  - character: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+    text: si profe la contabiliad es un sistema de control que administra los ingresos
+      o distintos
+  - character: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+    text: movimientos financieros en una empresa o entidad
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: 'asi es muy bien, tambien La contabilidad es una disciplina que se encarga
+      de estudiar, medir y analizar '
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: "el patrimonio y la situaci\xF3n econ\xF3mica financiera de una empresa
+      u organizaci\xF3n, con el fin de facilitar "
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: "la toma de decisiones en el seno de la misma y el control externo, presentando
+      la informaci\xF3n, "
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: "previamente registrada, de manera sistem\xE1tica y \xFAtil para las distintas
+      partes interesadas"
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: alguna pregunta o inquietud de su parte jovenes?
+  - character: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+    text: no profesor todo esta claro
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: "bueno eso seria todo por hoy jovenes nos vemos ma\xF1ana en la siguiente
+      clase que tenga un feliz dia"
