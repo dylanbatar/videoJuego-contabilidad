@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265f033fd87f59a4ca4250609564f99c, type: 3}
+  m_Name: Que es la contabilidad comercial y de costo
+  m_EditorClassIdentifier: 
+  speakerLeft: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+  speakerRight: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+  nextConversation: {fileID: 0}
+  question:
+    _id: 
+    questionText: 
+    answer: []
+  lines:
+  - character: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+    text: buenos dias profesor, una pregunta sobre el tema de hoy
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: digame que necesita saber joven
+  - character: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+    text: profesor lo que vendria a preguntarle que es la contabilidad comercial
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: 'bueno primero que todo la contabilidad comercial '
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: "Registra las actividades alrededor delas cobras de ventas delas mercanc\xEDa"
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: quedo claro sobre la contabilidad comercial, no hay dudas?
+  - character: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+    text: no profesor no hay dudas, ahh si profesor otra duda
+  - character: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+    text: que seria la contabilidad de costo?
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: digame usted mas bien que entenderia por contabilidad de costo
+  - character: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+    text: "yo dira que trata sobre registrar la acci\xF3n econ\xF3mica para determina
+      el costo "
+  - character: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+    text: ' del producto de terminado en las empresas industriales'
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: 'excelente tienes el tema muy claro, muchachos sigan investigando mas que '
+  - character: {fileID: 11400000, guid: d9f2d4a88cd39094ab8728f2b1b65294, type: 2}
+    text: la proxima clase habra quiz de todo lo aprendido
+  - character: {fileID: 11400000, guid: c97ea9ce16cb9f84e83cf93edcf655ce, type: 2}
+    text: listo profesor nos vemos

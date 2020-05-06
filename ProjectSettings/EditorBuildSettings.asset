@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu/Main.unity
+    guid: 68bcfe4400c23455e969c33517c8f67f
+  - enabled: 1
+    path: Assets/Scenes/MainMenu/SelectLevel.unity
+    guid: 66fbc14770be6438bb0d8b42c5aab890
+  - enabled: 1
+    path: Assets/Scenes/Quiz/Persitent.unity
+    guid: 2c7edb6a1279f499c980b40dc31e5dcd
+  - enabled: 1
+    path: Assets/Scenes/Quiz/MenuQuiz.unity
+    guid: 1ad9be223620b4afd9bb0066fbba24b9
+  - enabled: 1
+    path: Assets/Scenes/Quiz/StartQuiz.unity
+    guid: 6aba3719398e04a978ff7a3724dca537
+  - enabled: 1
+    path: Assets/Scenes/Class/Semester0_0.unity
+    guid: cb4f7e8b6d126495490c81c34f77c6de
+  - enabled: 1
+    path: Assets/Scenes/Class/Semester0_1.unity
+    guid: 00626a5385cf04678af6cdffc9dafbc7
+  - enabled: 1
+    path: Assets/Scenes/Class/Semester0_2.unity
+    guid: fbfcb79dec88f41949118b974d91d28b
+  - enabled: 1
+    path: Assets/Scenes/Class/Semester0_3.unity
+    guid: a392063af8e184349a840de70bd60c5f
+  - enabled: 1
+    path: Assets/Scenes/Class/SemesterDialog0_0.unity
+    guid: 7f80f5a313296514c901c955349193d1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Class/SemesterDialog0_1.unity
+    guid: c21c4bb653367494eaaee8124209fa94
+  - enabled: 1
+    path: Assets/Scenes/Class/SemesterDialog0_2.unity
+    guid: 44f34545f1acd3b419066649e8d193f3
+  - enabled: 1
+    path: Assets/Scenes/Class/SemesterDialog0_3.unity
+    guid: 3a645164b8e3e6b45a94e274285f6419
+  - enabled: 1
+    path: Assets/Scenes/Class/TransicionDia.unity
+    guid: 1de488c177fa72a41a86bdb87a6be8b8
+  - enabled: 1
+    path: Assets/Scenes/Class/transicionDia0_1.unity
+    guid: 2426e5e04121b5e49a2c752e006a6e18
+  - enabled: 1
+    path: Assets/Scenes/Class/transicionDia0_2.unity
+    guid: 92d7399b802fc824b88caa73f3bbaf91
+  - enabled: 1
+    path: Assets/Scenes/Class/transicionDia0_3.unity
+    guid: 1fccf60602c2329479095347a9a3953c
+  m_configObjects: {}

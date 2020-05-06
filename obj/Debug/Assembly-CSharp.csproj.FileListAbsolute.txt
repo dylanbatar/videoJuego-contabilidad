@@ -1,0 +1,2 @@
+C:\Users\USUARIO\Documents\unity\videoJuego-contabilidad-v.0.2 5\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\USUARIO\Documents\unity\videoJuego-contabilidad-v.0.2 5\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{46EBE500-93EE-9C0C-806C-15BC55CD596C}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UiController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameController.cs" Line="83" Column="33" />
+      <File FileName="Assets/Scripts/AnswerTextCard.cs" Line="20" Column="1" />
+      <File FileName="Assets/Scripts/UiController.cs" Line="28" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="videoJuego-contabilidad-v.0.2 5" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="UiController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="af0bdfe6-dcdd-41a6-8cd2-f9b9c547cb61" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
