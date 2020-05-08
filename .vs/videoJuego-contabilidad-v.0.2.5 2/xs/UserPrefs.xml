@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{FDD56802-1D68-B0E0-E5C4-6147C5D0AF5B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ApiServices.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ApiServices.cs" Line="106" Column="1" />
+      <File FileName="Assets/Scripts/PlayerStorage.cs" />
+      <File FileName="Assets/Scripts/UiAuth.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="videoJuego-contabilidad-v.0.2.5 2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="ApiServices.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7a8afa1e-c6b2-4b83-a64d-cacc492a4261" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

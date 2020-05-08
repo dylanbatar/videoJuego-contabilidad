@@ -9,16 +9,19 @@ public class UiController : MonoBehaviour
     public Text endScore;
     public Text semesterName;
     public Text QuestionNumber;
-    public Transform answerButtonPanel;
+
     public GameObject quizGamePanel;
     public GameObject resultPanel;
     public GameObject prefabButton;
-
-
-    public Transform answerContainer;
     public GameObject answerPrefab;
+
+    public Transform answerButtonPanel;
+    public Transform answerContainer;
+
     private DataResult storage;
+
     string[] cut = { "||" };
+
     List<string> listAnswerUser = new List<string>();
 
     private int answerNumber;  // para manipular cuantos botones se crean
@@ -91,5 +94,6 @@ public class UiController : MonoBehaviour
         quizGamePanel.SetActive(isActive);
         resultPanel.SetActive(!isActive);
     }
+
 }
 
