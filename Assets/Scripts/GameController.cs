@@ -74,12 +74,16 @@ public class GameController : MonoBehaviour
     public void EndLevel()
     {
         Debug.Log("Fin de parcial");
+<<<<<<< HEAD
         // ocultar el quiz y mostrar el panel de preguntas
         uiController.HandleGamePanel(false);
 
         // listar las preguntas del usuario
         uiController.ListAnswer();
 
+=======
+        uiController.HandleGamePanel(false);
+>>>>>>> 7a9a49469947abf1a57e792789e092cf7995ff2a
         GetDataRound();
     }
 

@@ -7,7 +7,11 @@ public class StorageResult
     public List<string> id = new List<string>();
     public List<string> answerUser = new List<string>();
     public List<string> whyAnswers = new List<string>();
+<<<<<<< HEAD
     public List<string> results = new List<string>();
+=======
+    private List<string> results = new List<string>();
+>>>>>>> 7a9a49469947abf1a57e792789e092cf7995ff2a
 
     public List<string> GetAllResponse()
     {

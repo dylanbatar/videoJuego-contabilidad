@@ -9,6 +9,7 @@ public class UiController : MonoBehaviour
     public Text endScore;
     public Text semesterName;
     public Text QuestionNumber;
+<<<<<<< HEAD
 
     public GameObject quizGamePanel;
     public GameObject resultPanel;
@@ -24,11 +25,18 @@ public class UiController : MonoBehaviour
 
     List<string> listAnswerUser = new List<string>();
 
+=======
+    public Transform answerButtonPanel;
+    public GameObject quizGamePanel;
+    public GameObject resultPanel;
+    public GameObject prefabButton;
+>>>>>>> 7a9a49469947abf1a57e792789e092cf7995ff2a
     private int answerNumber;  // para manipular cuantos botones se crean
 
     // OPTIONAL en caso de que se decida que los parciales tengan tiempo activar
     //public Text timeQuiz;
 
+<<<<<<< HEAD
     public void ListAnswer()
     {
         storage = FindObjectOfType<DataResult>();
@@ -50,6 +58,8 @@ public class UiController : MonoBehaviour
     }
 
 
+=======
+>>>>>>> 7a9a49469947abf1a57e792789e092cf7995ff2a
     public void CreateButtonsAndInputs(Answer[] data,string idButton)
     {
         answerNumber = data.Length;
@@ -94,6 +104,9 @@ public class UiController : MonoBehaviour
         quizGamePanel.SetActive(isActive);
         resultPanel.SetActive(!isActive);
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7a9a49469947abf1a57e792789e092cf7995ff2a
 }
 

@@ -147,6 +147,7 @@ MonoBehaviour:
     pointCorrectAnswer: 10
     questions:
     - _id: 1
+<<<<<<< HEAD
       questionText: "La empresa es un conjunto de muebles, personas y dinero, destinados
         a    la comercializaci\xF3n de mercanc\xEDa"
       answer:
@@ -217,6 +218,37 @@ MonoBehaviour:
       - answer: EMPRESAS PRIVADAS
         isCorrect: 0
         whyAnswer: 
+=======
+      questionText: Pregunta 1
+      answer:
+      - answer: False
+        isCorrect: 0
+        whyAnswer: 
+      - answer: True
+        isCorrect: 1
+        whyAnswer: 
+      - answer: wtf
+        isCorrect: 0
+        whyAnswer: 
+    - _id: 2
+      questionText: Los pasivos son tal tal tal ?
+      answer:
+      - answer: False
+        isCorrect: 0
+        whyAnswer: 
+      - answer: True
+        isCorrect: 1
+        whyAnswer: 
+    - _id: 3
+      questionText: Pregunta 3
+      answer:
+      - answer: False
+        isCorrect: 0
+        whyAnswer: 
+      - answer: True
+        isCorrect: 1
+        whyAnswer: 
+>>>>>>> 7a9a49469947abf1a57e792789e092cf7995ff2a
 --- !u!4 &523550131
 Transform:
   m_ObjectHideFlags: 0
@@ -260,6 +292,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97142e5cebeb04a209bc444808e407f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+=======
+  storage: {fileID: 0}
+>>>>>>> 7a9a49469947abf1a57e792789e092cf7995ff2a
 --- !u!4 &740001645
 Transform:
   m_ObjectHideFlags: 0

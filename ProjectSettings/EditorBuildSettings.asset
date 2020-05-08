@@ -12,6 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu/SelectLevel.unity
     guid: 66fbc14770be6438bb0d8b42c5aab890
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Quiz/Persitent.unity
     guid: 2c7edb6a1279f499c980b40dc31e5dcd
   - enabled: 1
@@ -20,6 +21,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Quiz/StartQuiz.unity
     guid: 6aba3719398e04a978ff7a3724dca537
+=======
+    path: Assets/Scenes/Quiz/MenuQuiz.unity
+    guid: dd48c84adb0244aeda5c254ce453def3
+  - enabled: 1
+    path: Assets/Scenes/Quiz/Persitent.unity
+    guid: 3b11584fe79ec4dd8afd0cfd4b52a517
+  - enabled: 1
+    path: Assets/Scenes/Quiz/StartQuiz.unity
+    guid: e6d7ca49f0ebc404eb7ebd9eb061821b
+>>>>>>> 7a9a49469947abf1a57e792789e092cf7995ff2a
   - enabled: 1
     path: Assets/Scenes/Class/Semester0_0.unity
     guid: cb4f7e8b6d126495490c81c34f77c6de
@@ -32,6 +43,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Class/Semester0_3.unity
     guid: a392063af8e184349a840de70bd60c5f
+<<<<<<< HEAD
   - enabled: 1
     path: Assets/Scenes/Class/SemesterDialog0_0.unity
     guid: 7f80f5a313296514c901c955349193d1
@@ -101,4 +113,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Class/transicionDia0_3.unity
     guid: 1fccf60602c2329479095347a9a3953c
+=======
+>>>>>>> 7a9a49469947abf1a57e792789e092cf7995ff2a
   m_configObjects: {}

@@ -7,16 +7,23 @@ using UnityEngine;
 public class PlayDayController : MonoBehaviour
 {
     private UiLevelController uiController;
+<<<<<<< HEAD
     private SceneTransitions transitions;
     public int indexPanel;
 
     public string semesterNumber;
     public string semesterDay;
+=======
+    int indexPanel;
+>>>>>>> 7a9a49469947abf1a57e792789e092cf7995ff2a
 
     private void Start()
     {
         uiController = FindObjectOfType<UiLevelController>();
+<<<<<<< HEAD
         DontDestroyOnLoad(gameObject);
+=======
+>>>>>>> 7a9a49469947abf1a57e792789e092cf7995ff2a
     }
 
     public void HidePanelSemester()
@@ -39,6 +46,10 @@ public class PlayDayController : MonoBehaviour
     {
         Transform days = uiController.gridContainePanel.GetChild(indexPanel)
             .Find("ContainerDays");
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7a9a49469947abf1a57e792789e092cf7995ff2a
         for (int i = 0; i < days.childCount; i++)
         {
             Button button = days.GetChild(i).GetComponent<Button>();
@@ -47,12 +58,18 @@ public class PlayDayController : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
     public void PlayDay(string semesterdialog, string day)
     {
         //transitions.HandlerText(day);
         semesterNumber = (semesterdialog);
         semesterDay = day;        
         SceneManager.LoadScene("TransicionDia");
+=======
+    public void PlayDay(string semester, string day)
+    {
+        SceneManager.LoadScene($"Semester{semester}_{day}");
+>>>>>>> 7a9a49469947abf1a57e792789e092cf7995ff2a
     }
 
 }
